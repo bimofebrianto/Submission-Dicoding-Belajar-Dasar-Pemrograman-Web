@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #ecf4ff;
+}
+
+p {
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+header {
+  font-family: Helvetica, sans-serif;
+  display: inline;
+  text-align: center;
+}
+
+header .jumbotron {
+  font-size: 20px;
+  font-family: normal;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  background-color: #0ca597;
+}
+
+header nav {
+  top: 0;
+  padding: 5px;
+  position: sticky;
+  background-color: #008278;
+}
+
+header nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+header nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+header nav li :hover {
+  background-color: #000000;
+  color: white;
+}
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+h3 {
+  color: #000000;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #0ca597;
+  box-shadow: 0 4px 8px 0 #000000;
+}
+
+#image {
+  width: 50%;
+  height: 50%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+main #content {
+  float: left;
+  width: 75%;
+}
+
+main aside {
+  float: right;
+  width: 25%;
+  padding-left: 25px;
+}
+
+figure img {
+  width: 100%;
+}
+
+footer {
+  padding: 25px;
+  color: white;
+  background-color: #0ca597;
+  text-align: center;
+}
